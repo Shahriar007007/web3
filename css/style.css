@@ -1,0 +1,227 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	line-height: 25px;
+	font-family: initial;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: inherit;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;	
+	float:left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	float: left;
+	border-bottom: 1px solid #eee;
+}
+.header .logo{
+	width: 100%;
+	float: left;
+
+}
+.header .logo img{
+	width: auto;
+}
+.header .menu{
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.header .menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0px 0px;
+}
+.header .menu li a{
+	font-size: 14px;
+	color: #3C91C1;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 0px 10px;
+}
+.online-business{
+	width: 80%;
+	float: left;
+	text-align:center; 
+	margin-top: 30px;
+	margin-left: 150px;
+}
+.online-business h1{
+	font-size: 64px;
+	line-height: 74px;
+	font-weight: 700;
+	color: #132959;
+
+}
+.online-business h1 span{
+	color: #4FAEFF;
+}
+.online-business p{
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+.online-business .img-fluid{
+	width: 600px;
+	margin: 15px 0px 15px 0px;
+}
+.success{
+	width: 100%;
+	float: left;
+	padding: 30px 0px 80px;
+}
+.success .left{
+	width: 100%;
+	float: left;
+	padding:0px 30px;
+	text-align: right;
+
+}
+.success .left h1{
+	font-size: 60px;
+	line-height: 74px;
+	font-weight: 700;
+	color: red;
+	margin: 0px 25px 0px 25px;
+}
+.success .left p{
+	font-size: 14px;
+	line-height: 25px;
+	text-align: right;
+	margin: 0px 25px 15px;
+
+}
+.success .right{
+	width: 100%;
+	float: left;
+	padding:0px 30px;
+}
+.success .right h1{
+	font-size: 50px;
+	line-height: 65px;
+	font-weight: 700;
+	color:#0F2656 ;
+	margin: 0px 15px 0px;
+}
+.bar{
+	width: 100%;
+	float:left;
+	padding: 80px 0px;
+}
+.cl1{
+	background: #FDEBED;
+}
+.cl2{
+	background: #EBF9F4;
+}
+.cl3{
+	background: #FFF2D6;
+}
+.bar .iner{
+	width: auto;
+	padding: 40px 30px;
+	margin: 0px 20px;
+}
+.bar .iner img{
+	width: 100%;
+	height: 200px;
+}
+.bar .iner h3{
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 32px;
+	color: black;
+	margin: 10px 0px;
+}
+.bar .iner p{
+	font-size: 14px;
+	line-height: 24px;
+	margin: 10px 0px;
+}
+.login{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background-color:gold;
+}
+.login .log{
+	width: 100%;
+	float: left;
+
+}
+.login .log .shan{
+	width: 50%;
+	height: 200px;
+	padding: 40px;
+	background: red;
+}
+.login .shahriar label{
+	display: block;
+	font-size: 20px;
+	color: blue;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.login .shahriar .don{
+	text-transform: uppercase;
+	padding: 10px;
+}
+.sign .si{
+	width: 50%;
+	padding: 40px;
+	background: green;
+}
+.sign .ss label{
+	text-transform: uppercase;
+	display: block;
+}
+.sign .ss .pp{
+		text-transform: uppercase;
+}
+
+
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008AFF;
+	text-align: center;
+}
+.footer p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	color: white;
+
+}
+.footer p b{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
